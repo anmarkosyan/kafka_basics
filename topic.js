@@ -1,6 +1,5 @@
 import {Kafka} from "kafkajs";
 
-console.log('hello');
 async function run(){
     try{
         const kafka = new Kafka({
